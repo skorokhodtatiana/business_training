@@ -1,0 +1,478 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+}
+
+// Page 14 STYLES Kate-4-Kotish start
+.page-14 {
+    height: 98%;
+    width: 96%;
+    margin: 0 2%;
+    padding-top: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: rgba(255, 255, 255, 0.8) url(../images/img_p14_bg.jpg) no-repeat;
+    background-size: cover;
+
+    .section-title {
+        font-size: 2.5rem;
+        color: $gray-color;
+        margin: 1rem 0 1rem 2rem;
+    }
+
+    .review {
+        margin: 1rem 0;
+
+        .review__text {
+            border-left: $gray-color solid 0.5rem;
+            margin: 0;
+            padding-left: 1.5rem;
+            font-size: 1.25rem;
+        }
+
+        .review__pic-text {
+            display: flex;
+            justify-content: flex-end;
+            padding: 0.5rem 0;
+
+            .review__pic {
+                max-width: 100%;
+                max-height: 100%;
+                height: 5rem;
+                width: 5rem;
+            }
+
+            .review__name-job {
+                padding: 2rem 2rem 0 0.5rem;
+                font-size: 1.2rem;
+                font-style: italic;
+            }
+        }
+    }
+}
+
+// Page 14 STYLES Kate-4-Kotish end
+
+
+
+// Page 15 STYLES Tatsiana-4-Kotish start
+.page-15 {
+    width: 96%;
+    margin: 0 2% 0 2%;
+
+    .section-title {
+        font-size: 2.7rem;
+        color: $gray-color;
+        padding-left: 2rem;
+        padding-top: 6.5rem;
+        margin-bottom: 0;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 2.3rem;
+        }
+
+        @media screen and (max-width: 425px) {
+            font-size: 2rem;
+            padding-left: 1rem;
+        }
+
+        @media screen and (max-width: 376px) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        &-item {
+            display: flex;
+            width: 41%;
+            justify-content: center;
+
+            @media screen and (max-width: 767px) {
+                width: 100%;
+            }
+
+            .team-div-img {
+                width: 12rem;
+                height: 12rem;
+
+                .team-img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+
+        .team-item-top {
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+
+            @media screen and (max-width: 1024px) {
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+
+            @media screen and (max-width: 426px) {
+                margin-bottom: 0;
+                margin-top: 2rem;
+            }
+
+            @media screen and (max-width: 376px) {
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+        }
+
+        .team-item-lower {
+            margin-bottom: 2rem;
+            // margin-top: 3rem;
+
+            @media screen and (max-width: 1024px) {
+                margin-bottom: 1rem;
+                // margin-top: 2rem;
+            }
+
+            @media screen and (max-width: 767px) {
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+
+            @media screen and (max-width: 426px) {
+                margin-bottom: 0;
+                margin-top: 2rem;
+            }
+
+            @media screen and (max-width: 376px) {
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+        }
+
+        .team-text {
+            margin-left: 1.8rem;
+            width: 13rem;
+        }
+
+        .name {
+            font-size: 2rem;
+            font-family: "Roboto", sans-serif;
+            color: $gray-color;
+
+            @media screen and (max-width: 1024px) {
+                font-size: 1.6rem;
+            }
+
+            @media screen and (max-width: 425px) {
+                font-size: 1.4rem;
+            }
+        }
+
+        .post {
+            font-size: 1.3rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            line-height: 2.2rem;
+            color: $gray-color;
+
+            @media screen and (max-width: 1024px) {
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+            }
+
+            @media screen and (max-width: 425px) {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+// Page 15 STYLES Tatsiana-4-Kotish end
+
+
+
+// Page 16 STYLES Valeria-4-Kotish start
+.wrapper-contacts {
+    box-sizing: border-box;
+    height: 99vh;
+    width: 98%;
+    max-width: 99vw;
+
+    padding-top: 5rem;
+
+    .contacts-main {
+        display: flex;
+        max-height: 100%;
+        max-width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem 2% 3rem 2%;
+        text-align: center;
+
+        .contacts-main__title {
+            margin: 0;
+            padding: 0;
+            color: $gray-color;
+            font-size: 2.5rem;
+
+        }
+
+        .contacts-main__button-head {
+            font-size: 1.5rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: $gray-color;
+        }
+
+        .contacts-main__mail-head {
+            font-size: 1.5rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: $gray-color;
+            margin-top: 2rem;
+        }
+
+        .contacts-main__mail {
+            font-size: 2.5rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: $turquoise-color;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .contacts-main__button {
+        align-self: center;
+        border: solid 1px $turquoise-color;
+        padding: 1.5rem 3rem;
+        border-radius: 25px;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: "Roboto",
+            sans-serif;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: $turquoise-color;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        &::after {
+            background-image: url(../../assets/images/img_p16.png);
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            content: "";
+            display: block;
+            position: absolute;
+            right: -20px;
+            bottom: -20px;
+            display: none;
+
+        }
+
+        .contacts-main__button-link {
+            text-decoration: none;
+            color: $turquoise-color;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+// Page 16 STYLES Valeria-4-Kotish end
+
+
+
+
+// Page 14 ADAPTIVITY Kate-4-Kotish start
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .page-14 {
+        padding-top: 5rem;
+
+        .section-title {
+            font-size: 1.5rem;
+        }
+
+        .review {
+            margin: 1rem 0;
+
+            .review__block {
+                padding-bottom: 0.5rem;
+
+                .review__text {
+                    padding-left: 1rem;
+                    font-size: 1rem;
+                }
+
+                .review__pic-text {
+                    justify-content: flex-start;
+                    margin: 0.5rem 0 0.5rem 0.6rem;
+
+                    .review__name-job {
+                        font-size: 0.9rem;
+                        padding: 1rem 2rem 0 0.5rem;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 622px) {
+    .page-14 {
+        padding-top: 6rem;
+
+        .section-title {
+            font-size: 2.5rem;
+            color: $gray-color;
+            margin: 1rem 0 1rem 2rem;
+        }
+
+        .review {
+            margin: 1rem 0;
+
+            .review__text {
+                padding-left: 1rem;
+            }
+
+            .review__pic-text {
+                justify-content: flex-start;
+                margin: 0.5rem 0 0.5rem 0.6rem;
+
+                .review__name-job-2 {
+                    padding: 1rem 2rem 0 0.5rem;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 623px) and (max-width: 767px) {
+    .page-14 {
+        padding-top: 6rem;
+
+        .review {
+            .review__text {
+                padding-left: 1rem;
+            }
+
+            .review__pic-text {
+                .review__name-job {
+                    padding: 2rem 0 0 0.5rem;
+                    font-size: 1.2rem;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page-14 {
+        padding-top: 6rem;
+    }
+}
+
+// Page 14 ADAPTIVITY Kate-4-Kotish end
+
+
+// Page 15 ADAPTIVITY Tatsiana-4-Kotish start
+// Вся адаптивность в стилях страницы
+// Page 15 ADAPTIVITY Tatsiana-4-Kotish end
+
+
+// Page 16 ADAPTIVITY Valeria-4-Kotish start
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .wrapper-contacts {
+        max-height: fit-content;
+        height: fit-content;
+        width: 98%;
+        max-width: 99vw;
+        margin-bottom: 5rem;
+
+        .contacts-main {
+            height: fit-content;
+            width: 98%;
+            margin: 0 1%;
+
+            .contacts-main__title {
+                font-size: 1.5rem;
+            }
+
+            .contacts-main__button-head {
+                font-size: 1rem;
+            }
+
+            .contacts-main__button {
+                font-size: 1.2rem;
+                border-radius: 15px;
+                padding: 1rem 2rem;
+            }
+
+            .contacts-main__mail-head {
+                margin-top: 1rem;
+                font-size: 1.2rem;
+            }
+
+            .contacts-main__mail {
+                margin: 1rem 0;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrapper-contacts {
+        height: fit-content;
+        max-width: 99vw;
+        margin: 1rem 0 5rem 0;
+        padding-top: 6rem;
+
+        .contacts-main {
+
+            height: fit-content;
+            width: 98%;
+            margin: 0 1%;
+
+            .contacts-main__title {
+                font-size: 1.8rem;
+            }
+
+            .contacts-main__button-head {
+                font-size: 1.3rem;
+            }
+
+            .contacts-main__button {
+                font-size: 1.8rem;
+                border-radius: 20px;
+                padding: 1.5rem 2.5rem;
+            }
+
+            .contacts-main__mail-head {
+                margin-top: 1.5rem;
+            }
+
+            .contacts-main__mail {
+                margin: 1.5rem 0 2rem 0;
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+}
+
+// Page 16 ADAPTIVITY Valeria-4-Kotish end
